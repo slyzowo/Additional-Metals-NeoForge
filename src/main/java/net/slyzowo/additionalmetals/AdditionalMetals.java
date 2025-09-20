@@ -52,11 +52,44 @@ public class AdditionalMetals {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.ALUMINIUM_INGOT);
+            event.accept(ModItems.ALUMINIUM_NUGGET);
             event.accept(ModItems.ALUMINIUM_SHEET);
+
             event.accept(ModItems.BRASS_INGOT);
+            event.accept(ModItems.BRASS_NUGGET);
             event.accept(ModItems.BRASS_SHEET);
+
             event.accept(ModItems.BRONZE_INGOT);
+            event.accept(ModItems.BRONZE_NUGGET);
             event.accept(ModItems.BRONZE_SHEET);
+
+            event.accept(ModItems.LITHIUM_INGOT);
+            event.accept(ModItems.LITHIUM_NUGGET);
+            event.accept(ModItems.LITHIUM_SHEET);
+
+            event.accept(ModItems.PURPLE_GOLD_INGOT);
+            event.accept(ModItems.PURPLE_GOLD_NUGGET);
+            event.accept(ModItems.PURPLE_GOLD_SHEET);
+
+            event.accept(ModItems.STEEL_INGOT);
+            event.accept(ModItems.STEEL_NUGGET);
+            event.accept(ModItems.STEEL_SHEET);
+
+            event.accept(ModItems.TIN_INGOT);
+            event.accept(ModItems.TIN_NUGGET);
+            event.accept(ModItems.TIN_SHEET);
+
+            event.accept(ModItems.TITANIUM_INGOT);
+            event.accept(ModItems.TITANIUM_NUGGET);
+            event.accept(ModItems.TITANIUM_SHEET);
+
+            event.accept(ModItems.TUNGSTEN_INGOT);
+            event.accept(ModItems.TUNGSTEN_NUGGET);
+            event.accept(ModItems.TUNGSTEN_SHEET);
+
+            event.accept(ModItems.ZINC_INGOT);
+            event.accept(ModItems.ZINC_NUGGET);
+            event.accept(ModItems.ZINC_SHEET);
         }
     }
 
