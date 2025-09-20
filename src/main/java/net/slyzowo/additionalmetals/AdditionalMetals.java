@@ -1,6 +1,8 @@
 package net.slyzowo.additionalmetals;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -13,6 +15,7 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import net.slyzowo.additionalmetals.item.ModItems;
 
 import java.util.logging.Logger;
 
@@ -33,6 +36,8 @@ public class AdditionalMetals {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModItems.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -41,18 +46,23 @@ public class AdditionalMetals {
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
-
     }
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(ModItems.ALUMINIUM_INGOT);
+            event.accept(ModItems.ALUMINIUM_SHEET);
+            event.accept(ModItems.BRASS_INGOT);
+            event.accept(ModItems.BRASS_SHEET);
+            event.accept(ModItems.BRONZE_INGOT);
+            event.accept(ModItems.BRONZE_SHEET);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
-
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
