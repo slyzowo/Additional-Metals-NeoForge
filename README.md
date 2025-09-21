@@ -1,22 +1,22 @@
 # Additional Metals
 
 This mod adds more metals to Minecraft, including:
-- [Aluminium](src/main/resources/assets/additionalmetals/textures/item/aluminium_ingot.png)
-- [Brass](src/main/resources/assets/additionalmetals/textures/item/brass_ingot.png)
-- [Bronze](src/main/resources/assets/additionalmetals/textures/item/bronze_ingot.png)
-- [Lithium](src/main/resources/assets/additionalmetals/textures/item/lithium_ingot.png)
-- [Purple Gold](src/main/resources/assets/additionalmetals/textures/item/purple_gold_ingot.png)
-- [Steel](src/main/resources/assets/additionalmetals/textures/item/steel_ingot.png) 
-- [Tin](src/main/resources/assets/additionalmetals/textures/item/tin_ingot.png)
-- [Titanium](src/main/resources/assets/additionalmetals/textures/item/titanium_ingot.png)
-- [Zinc](src/main/resources/assets/additionalmetals/textures/item/zinc_ingot.png)
+- Aluminium
+- Brass
+- Bronze
+- Lithium
+- Purple Gold
+- Steel
+- Tin
+- Titanium
+- Zinc
 
 ### Things to Add
-[X] Items
-[ ] Blocks
-[ ] Recipes
-[ ] Data Generation (Only I really care about this)
-[ ] 
+- [X] Items
+- [ ] Blocks
+- [ ] Recipes
+- [ ] Data Generation (Only I really care about this)
+- [ ] 
 
 ### Language Support
 This mod directly supports: 
