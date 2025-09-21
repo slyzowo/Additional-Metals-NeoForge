@@ -26,7 +26,8 @@ This mod adds more metals to Minecraft, including:
 
 ## Language Support
 This mod directly supports: 
-- English (USA, may add UK English as well)
+- English (United States)
+- English (United Kingdom)
 
 and will soon support:
 - French (France) 
