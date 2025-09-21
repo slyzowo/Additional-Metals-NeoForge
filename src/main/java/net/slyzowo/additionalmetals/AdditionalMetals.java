@@ -52,6 +52,7 @@ public class AdditionalMetals {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.ALUMINIUM_INGOT);
+            event.accept(ModItems.RAW_ALUMINIUM);
             event.accept(ModItems.ALUMINIUM_NUGGET);
             event.accept(ModItems.ALUMINIUM_SHEET);
 
@@ -64,6 +65,7 @@ public class AdditionalMetals {
             event.accept(ModItems.BRONZE_SHEET);
 
             event.accept(ModItems.LITHIUM_INGOT);
+            event.accept(ModItems.RAW_LITHIUM);
             event.accept(ModItems.LITHIUM_NUGGET);
             event.accept(ModItems.LITHIUM_SHEET);
 
@@ -76,17 +78,21 @@ public class AdditionalMetals {
             event.accept(ModItems.STEEL_SHEET);
 
             event.accept(ModItems.TIN_INGOT);
+            event.accept(ModItems.RAW_TIN);
             event.accept(ModItems.TIN_NUGGET);
             event.accept(ModItems.TIN_SHEET);
 
+            event.accept(ModItems.RAW_TITANIUM);
             event.accept(ModItems.TITANIUM_INGOT);
             event.accept(ModItems.TITANIUM_NUGGET);
             event.accept(ModItems.TITANIUM_SHEET);
 
+            event.accept(ModItems.RAW_TUNGSTEN);
             event.accept(ModItems.TUNGSTEN_INGOT);
             event.accept(ModItems.TUNGSTEN_NUGGET);
             event.accept(ModItems.TUNGSTEN_SHEET);
 
+            event.accept(ModItems.RAW_ZINC);
             event.accept(ModItems.ZINC_INGOT);
             event.accept(ModItems.ZINC_NUGGET);
             event.accept(ModItems.ZINC_SHEET);
