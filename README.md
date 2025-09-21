@@ -10,6 +10,7 @@ This mod adds more metals to Minecraft, including:
 - Tin
 - Titanium
 - Zinc
+
 > [!INFO]
 > I may add more metals in the future, like Mercury, or Bismuth. 
 
