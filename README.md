@@ -18,10 +18,11 @@ This mod adds more metals to Minecraft, including:
 
 ## Things to Add
 - [X] Items
-- [ ] Blocks
-- [ ] Creative Mode Tab
-- [ ] Data Generation (Only I really care about this)
+- [X] Blocks
+- [X] Creative Mode Tab
 - [ ] Recipes
+- [ ] Tags            (Only I really care about this)
+- [ ] Data Generation (Only I really care about this)
 - [ ] Tools
 - [ ] Weapons
 - [ ] Armour
@@ -51,61 +52,101 @@ Go to `C:\Users\yourname\AppData\Roaming\.minecraft` and make a `mods` folder an
 
 
 ### Aluminium
-Armour
-Tools
-Weapons
-Special Blocks
+Armour:
+
+Tools:
+
+Weapons:
+
+Special Blocks:
+
 
 ### Brass
-Armour
-Tools
-Weapons
-Special Blocks
+Armour:
+
+Tools:
+
+Weapons:
+
+Special Blocks:
+
 
 ### Bronze
-Armour
-Tools
-Weapons
-Special Blocks
+Armour:
+
+Tools:
+
+Weapons:
+
+Special Blocks:
+
 
 ### Lithium
-Armour
-Tools
-Weapons
-Special Blocks
+Armour:
+
+Tools:
+
+Weapons:
+
+Special Blocks:
+
 
 ### Purple Gold
-Armour
-Tools
-Weapons
-Special Blocks
+Armour:
+
+Tools:
+
+Weapons:
+
+Special Blocks:
+
 
 ### Steel
-Armour
-Tools
-Weapons
-Special Blocks
+Armour:
+
+Tools:
+
+Weapons:
+
+Special Blocks:
+
 
 ### Tin
-Armour
-Tools
-Weapons
-Special Blocks
+Armour:
+
+Tools:
+
+Weapons:
+
+Special Blocks:
+
 
 ### Titanium
-Armour
-Tools
-Weapons
-Special Blocks
+Armour:
+
+Tools:
+
+Weapons:
+
+Special Blocks:
+
 
 ### Tungsten
-Armour
-Tools
-Weapons
-Special Blocks
+Armour:
+
+Tools:
+
+Weapons:
+
+Special Blocks:
+
 
 ### Zinc
-Armour
-Tools
-Weapons
-Special Blocks
+Armour:
+
+Tools:
+
+Weapons:
+
+Special Blocks:
+

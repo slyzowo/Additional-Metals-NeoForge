@@ -1,13 +1,13 @@
 {
-  "itemGroup.additionalmetals": "Additional Metals",
-  "block.additionalmetals.aluminium_block": "Block of Aluminium",
-  "block.additionalmetals.aluminium_ore": "Aluminium Ore",
-  "block.additionalmetals.deepslate_aluminium_ore": "Deepslate Aluminium Ore",
-  "block.additionalmetals.raw_aluminium_block": "Block of Raw Aluminium",
+  "creativetab.additionalmetals": "Additional Metals",
+  "block.additionalmetals.aluminium_block": "Block of Aluminum",
+  "block.additionalmetals.aluminium_ore": "Aluminum Ore",
+  "block.additionalmetals.deepslate_aluminium_ore": "Deepslate Aluminum Ore",
+  "block.additionalmetals.raw_aluminium_block": "Block of Raw Aluminum",
   "item.additionalmetals.raw_aluminium_block": "Raw Aluminum",
-  "item.additionalmetals.aluminium_ingot": "Aluminium Ingot",
-  "item.additionalmetals.aluminium_nugget": "Aluminium Nugget",
-  "item.additionalmetals.aluminium_sheet": "Sheet of Aluminium",
+  "item.additionalmetals.aluminium_ingot": "Aluminum Ingot",
+  "item.additionalmetals.aluminium_nugget": "Aluminum Nugget",
+  "item.additionalmetals.aluminium_sheet": "Sheet of Aluminum",
   "block.additionalmetals.brass_block": "Block of Brass",
   "item.additionalmetals.brass_ingot": "Brass Ingot",
   "item.additionalmetals.brass_nugget": "Brass Nugget",
@@ -45,7 +45,7 @@
   "block.additionalmetals.deepslate_titanium_ore": "Deepslate Titanium Ore",
   "block.additionalmetals.raw_titanium_block": "Block of Raw Titanium",
   "item.additionalmetals.titanium_ingot": "Titanium Ingot",
-  "item.additionalmetals.raw_titanium_ingot": "Raw Titanium",
+  "item.additionalmetals.raw_titanium": "Raw Titanium",
   "item.additionalmetals.titanium_nugget": "Titanium Nugget",
   "item.additionalmetals.titanium_sheet": "Sheet of Titanium",
   "block.additionalmetals.tungsten_block": "Block of Tungsten",
@@ -62,6 +62,5 @@
   "item.additionalmetals.zinc_ingot": "Zinc Ingot",
   "item.additionalmetals.raw_zinc": "Raw Zinc",
   "item.additionalmetals.zinc_nugget": "Zinc Nugget",
-  "item.additionalmetals.zinc_sheet": "Sheet of Zinc",
-  "item.additionalmetals.raw_aluminium": "Raw Aluminium"
+  "item.additionalmetals.zinc_sheet": "Sheet of Zinc"
 }

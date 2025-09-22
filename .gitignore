@@ -24,3 +24,6 @@ runs
 run-data
 
 repo
+src/main/resources/assets/additionalmetals/textures/item/metal_sheet.png
+src/main/resources/assets/additionalmetals/textures/item/metal_nugget.png
+src/main/resources/assets/additionalmetals/textures/item/metal_ingot.png
