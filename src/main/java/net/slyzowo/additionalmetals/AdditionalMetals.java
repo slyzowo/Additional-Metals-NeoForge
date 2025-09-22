@@ -15,6 +15,7 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import net.slyzowo.additionalmetals.block.ModBlocks;
 import net.slyzowo.additionalmetals.item.ModItems;
 
 import java.util.logging.Logger;
@@ -37,6 +38,7 @@ public class AdditionalMetals {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -51,49 +53,77 @@ public class AdditionalMetals {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(ModBlocks.ALUMINIUM_BLOCK);
+            event.accept(ModBlocks.RAW_ALUMINIUM_BLOCK);
+            event.accept(ModBlocks.ALUMINIUM_ORE);
+            event.accept(ModBlocks.DEEPSLATE_ALUMINIUM_ORE);
             event.accept(ModItems.ALUMINIUM_INGOT);
             event.accept(ModItems.RAW_ALUMINIUM);
             event.accept(ModItems.ALUMINIUM_NUGGET);
             event.accept(ModItems.ALUMINIUM_SHEET);
 
+            event.accept(ModBlocks.BRASS_BLOCK);
             event.accept(ModItems.BRASS_INGOT);
             event.accept(ModItems.BRASS_NUGGET);
             event.accept(ModItems.BRASS_SHEET);
 
+            event.accept(ModBlocks.BRONZE_BLOCK);
             event.accept(ModItems.BRONZE_INGOT);
             event.accept(ModItems.BRONZE_NUGGET);
             event.accept(ModItems.BRONZE_SHEET);
 
+            event.accept(ModBlocks.LITHIUM_BLOCK);
+            event.accept(ModBlocks.RAW_LITHIUM_BLOCK);
+            event.accept(ModBlocks.LITHIUM_ORE);
+            event.accept(ModBlocks.DEEPSLATE_LITHIUM_ORE);
             event.accept(ModItems.LITHIUM_INGOT);
             event.accept(ModItems.RAW_LITHIUM);
             event.accept(ModItems.LITHIUM_NUGGET);
             event.accept(ModItems.LITHIUM_SHEET);
 
+            event.accept(ModBlocks.PURPLE_GOLD_BLOCK);
             event.accept(ModItems.PURPLE_GOLD_INGOT);
             event.accept(ModItems.PURPLE_GOLD_NUGGET);
             event.accept(ModItems.PURPLE_GOLD_SHEET);
 
+            event.accept(ModBlocks.STEEL_BLOCK);
             event.accept(ModItems.STEEL_INGOT);
             event.accept(ModItems.STEEL_NUGGET);
             event.accept(ModItems.STEEL_SHEET);
 
+            event.accept(ModBlocks.TIN_BLOCK);
+            event.accept(ModBlocks.RAW_TIN_BLOCK);
+            event.accept(ModBlocks.TIN_ORE);
+            event.accept(ModBlocks.DEEPSLATE_TIN_ORE);
             event.accept(ModItems.TIN_INGOT);
             event.accept(ModItems.RAW_TIN);
             event.accept(ModItems.TIN_NUGGET);
             event.accept(ModItems.TIN_SHEET);
 
-            event.accept(ModItems.RAW_TITANIUM);
+            event.accept(ModBlocks.TITANIUM_BLOCK);
+            event.accept(ModBlocks.RAW_TITANIUM_BLOCK);
+            event.accept(ModBlocks.TITANIUM_ORE);
+            event.accept(ModBlocks.DEEPSLATE_TITANIUM_ORE);
             event.accept(ModItems.TITANIUM_INGOT);
+            event.accept(ModItems.RAW_TITANIUM);
             event.accept(ModItems.TITANIUM_NUGGET);
             event.accept(ModItems.TITANIUM_SHEET);
 
-            event.accept(ModItems.RAW_TUNGSTEN);
+            event.accept(ModBlocks.TUNGSTEN_BLOCK);
+            event.accept(ModBlocks.RAW_TUNGSTEN_BLOCK);
+            event.accept(ModBlocks.TUNGSTEN_ORE);
+            event.accept(ModBlocks.DEEPSLATE_TUNGSTEN_ORE);
             event.accept(ModItems.TUNGSTEN_INGOT);
+            event.accept(ModItems.RAW_TUNGSTEN);
             event.accept(ModItems.TUNGSTEN_NUGGET);
             event.accept(ModItems.TUNGSTEN_SHEET);
 
-            event.accept(ModItems.RAW_ZINC);
+            event.accept(ModBlocks.ZINC_BLOCK);
+            event.accept(ModBlocks.RAW_ZINC_BLOCK);
+            event.accept(ModBlocks.ZINC_ORE);
+            event.accept(ModBlocks.DEEPSLATE_ZINC_ORE);
             event.accept(ModItems.ZINC_INGOT);
+            event.accept(ModItems.RAW_ZINC);
             event.accept(ModItems.ZINC_NUGGET);
             event.accept(ModItems.ZINC_SHEET);
         }
