@@ -20,9 +20,9 @@ This mod adds more metals to Minecraft, including:
 - [X] Items
 - [X] Blocks
 - [X] Creative Mode Tab
+- [ ] Data Generation (Only I really care about this)
 - [ ] Recipes
 - [ ] Tags            (Only I really care about this)
-- [ ] Data Generation (Only I really care about this)
 - [ ] Tools
 - [ ] Weapons
 - [ ] Armour
